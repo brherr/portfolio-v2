@@ -1,12 +1,15 @@
 import React from 'react';
 import Background from '../../components/Background';
-import ViewWrapper from './styles';
+import FireflyBackground from '../../components/FireflyBackground/FireflyBackground';
 
 const Home = () => {
   return (
-    <ViewWrapper>
-      <Background />
-    </ViewWrapper>
+    <div>
+      {/* // <ViewWrapper> */}
+      {/* <Background /> */}
+      <FireflyBackground quantity="15" />
+      {/* </ViewWrapper> */}
+    </div>
   );
 };
 
