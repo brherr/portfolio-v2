@@ -1,14 +1,14 @@
 import React from 'react';
-import Background from '../../components/Background';
 import FireflyBackground from '../../components/FireflyBackground/FireflyBackground';
+import Header from '../../components/Header/Header';
 
 const Home = () => {
   return (
-    <div>
-      {/* // <ViewWrapper> */}
-      {/* <Background /> */}
+    <div style={{ position: 'relative', height: '100vh' }}>
       <FireflyBackground quantity="15" />
-      {/* </ViewWrapper> */}
+      <div style={{ position: 'absolute', top: 0, left: 0, width: '100%' }}>
+        <Header />
+      </div>
     </div>
   );
 };
